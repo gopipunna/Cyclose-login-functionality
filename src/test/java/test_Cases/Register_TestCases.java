@@ -32,8 +32,9 @@ public class Register_TestCases extends Url_Login_Logout {
 			rp.SetPassword();
 			rp.SetConfirmPassword();
 			rp.SetDemoTest();
-			
+			Thread.sleep(15000);
 			rp.SetSubmit();
+			Thread.sleep(10000);
 			TakesScreenshot tc=(TakesScreenshot)driver;
 			File src=tc.getScreenshotAs(OutputType.FILE);
 			File trg=new File("C:\\Users\\LENOVO\\eclipse-workspace\\Cyclos_TestNG\\CyclosScreenhot\\wholepage.png");

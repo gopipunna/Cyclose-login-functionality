@@ -18,13 +18,13 @@ public class Register_Page {
 	@FindBy(id="register-link")
 	WebElement registerClick;
 	
-	@FindBy(xpath="(//input[@class='form-control w-100 ng-touched ng-dirty ng-valid'])[1]")
+	@FindBy(xpath="(//input[@autocomplete='off'])[1]")
 	WebElement name;
 	
-	@FindBy(xpath="(//input[@class='form-control w-100 ng-touched ng-dirty ng-valid'])[2]")
+	@FindBy(xpath="(//input[@autocomplete='off'])[2]")
 	WebElement LoginName;
 	
-	@FindBy(xpath="(//input[@class='form-control w-100 ng-touched ng-dirty ng-valid'])[3]")
+	@FindBy(xpath="(//input[@autocomplete='off'])[3]")
 	WebElement email;
 	
 	@FindBy(xpath="(//label[@class='custom-control-label'])[1]")
@@ -33,17 +33,17 @@ public class Register_Page {
 	@FindBy(xpath="//button[@class='btn d-flex justify-content-center align-items-center w-100 h-100 btn-primary']")
 	WebElement next;
 	
-	@FindBy(xpath="//input[@class='form-control w-100 ng-pristine ng-invalid ng-touched']")
+	@FindBy(xpath="(//input[@autocomplete='new-password'])[1]")
 	WebElement password;
 	
-	@FindBy(xpath="//input[@class='form-control w-100 ng-untouched ng-pristine ng-invalid']")
+	@FindBy(xpath="(//input[@autocomplete='new-password'])[2]")
 	WebElement cpassword;
 	
 	@FindBy(xpath="//label[@class='custom-control-label']")
 	WebElement demoTest;
 	
 	
-	@FindBy(xpath="//button[@class='btn d-flex justify-content-center align-items-center w-100 h-100 btn-primary']")
+	@FindBy(xpath="(//button[@type='button'])[2]")
 	WebElement submit;
 	
 	
@@ -55,15 +55,15 @@ public class Register_Page {
 	}
 	public void SetName()
 	{
-		name.sendKeys("nishi");
+		name.sendKeys("nhikum");
 	}
 	public void SetLoginName()
 	{
-		LoginName.sendKeys("nishi123");	
+		LoginName.sendKeys("nishi1256");	
 	}
 	public void SetMailid()
 	{
-		email.sendKeys("nishi123@gmail.com");
+		email.sendKeys("nishi1265@gmail.com");
 	}
 	public void SetGender()
 	{
