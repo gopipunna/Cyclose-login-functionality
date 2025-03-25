@@ -6,13 +6,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test_Cases.Register_TestCases">
+      <class name="test_Cases.Pay_User_003TestCases">
         <methods>
+          <include name="payUser"/>
           <include name="OpenApplication"/>
-          <include name="CloseApplication"/>
-          <include name="RegisterTest"/>
         </methods>
-      </class> <!-- test_Cases.Register_TestCases -->
+      </class> <!-- test_Cases.Pay_User_003TestCases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

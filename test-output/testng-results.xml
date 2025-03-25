@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-20T14:57:24 IST" name="Default suite" finished-at="2025-03-20T14:58:05 IST" duration-ms="41443">
+  <suite started-at="2025-03-25T16:26:58 IST" name="Default suite" finished-at="2025-03-25T16:27:22 IST" duration-ms="24355">
     <groups>
     </groups>
-    <test started-at="2025-03-20T14:57:24 IST" name="Default test" finished-at="2025-03-20T14:58:05 IST" duration-ms="41443">
-      <class name="test_Cases.Register_TestCases">
-        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:test_Cases.Register_TestCases@7d20d0b]" started-at="2025-03-20T14:57:24 IST" name="OpenApplication" finished-at="2025-03-20T14:57:31 IST" duration-ms="6463" status="PASS">
+    <test started-at="2025-03-25T16:26:58 IST" name="Default test" finished-at="2025-03-25T16:27:22 IST" duration-ms="24355">
+      <class name="test_Cases.Pay_User_003TestCases">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:test_Cases.Pay_User_003TestCases@7d20d0b]" started-at="2025-03-25T16:26:58 IST" name="OpenApplication" finished-at="2025-03-25T16:27:04 IST" duration-ms="5777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApplication -->
-        <test-method signature="RegisterTest()[pri:0, instance:test_Cases.Register_TestCases@7d20d0b]" started-at="2025-03-20T14:57:31 IST" name="RegisterTest" finished-at="2025-03-20T14:58:05 IST" duration-ms="34857" status="PASS">
+        <test-method signature="payUser()[pri:0, instance:test_Cases.Pay_User_003TestCases@7d20d0b]" started-at="2025-03-25T16:27:04 IST" name="payUser" finished-at="2025-03-25T16:27:22 IST" duration-ms="18470" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterTest -->
-      </class> <!-- test_Cases.Register_TestCases -->
+        </test-method> <!-- payUser -->
+      </class> <!-- test_Cases.Pay_User_003TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
