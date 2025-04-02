@@ -2,20 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T16:26:58 IST" name="Default suite" finished-at="2025-03-25T16:27:22 IST" duration-ms="24355">
+  <suite started-at="2025-04-02T15:57:16 IST" name="Suite" finished-at="2025-04-02T15:57:36 IST" duration-ms="19767">
     <groups>
     </groups>
-    <test started-at="2025-03-25T16:26:58 IST" name="Default test" finished-at="2025-03-25T16:27:22 IST" duration-ms="24355">
-      <class name="test_Cases.Pay_User_003TestCases">
-        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:test_Cases.Pay_User_003TestCases@7d20d0b]" started-at="2025-03-25T16:26:58 IST" name="OpenApplication" finished-at="2025-03-25T16:27:04 IST" duration-ms="5777" status="PASS">
+    <test started-at="2025-04-02T15:57:16 IST" name="Test" finished-at="2025-04-02T15:57:36 IST" duration-ms="19767">
+      <class name="test_Cases.Pay_User_Page_TestCases">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:test_Cases.Pay_User_Page_TestCases@5bf0d49]" started-at="2025-04-02T15:57:16 IST" name="openApplication" finished-at="2025-04-02T15:57:23 IST" duration-ms="6676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.cyclos.org/ui/home]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenApplication -->
-        <test-method signature="payUser()[pri:0, instance:test_Cases.Pay_User_003TestCases@7d20d0b]" started-at="2025-03-25T16:27:04 IST" name="payUser" finished-at="2025-03-25T16:27:22 IST" duration-ms="18470" status="PASS">
+        </test-method> <!-- openApplication -->
+        <test-method signature="payUser()[pri:0, instance:test_Cases.Pay_User_Page_TestCases@5bf0d49]" started-at="2025-04-02T15:57:23 IST" name="payUser" finished-at="2025-04-02T15:57:36 IST" duration-ms="12967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payUser -->
-      </class> <!-- test_Cases.Pay_User_003TestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- test_Cases.Pay_User_Page_TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

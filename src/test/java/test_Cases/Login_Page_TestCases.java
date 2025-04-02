@@ -2,10 +2,10 @@ package test_Cases;
 
 import org.testng.annotations.Test;
 
-import base_Class.Url_Login_Logout;
+import base_Class.Base_Class;
 import page_Object.Login_Page;
 
-public class Login_002TestCases extends Url_Login_Logout {
+public class Login_Page_TestCases extends Base_Class {
 	
 	public Login_Page lp;
 	@Test

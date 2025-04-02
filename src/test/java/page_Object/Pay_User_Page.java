@@ -2,6 +2,9 @@ package page_Object;
 
 
 
+
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,11 +12,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Pay_User_Function {
+public class Pay_User_Page {
 	
 	public WebDriver driver;
 	Actions ac;
-	public Pay_User_Function(WebDriver driver)
+	public Pay_User_Page(WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
@@ -35,7 +38,7 @@ public class Pay_User_Function {
 	@FindBy(id="id_5")
 	WebElement description;
 	
-	@FindBy(xpath="(//button[@type='button'])[2]")
+	@FindBy(xpath="//action-button[@class='d-inline-block button']//span")
 	WebElement confirm;
 	
 	public void Setpayuser() {
@@ -44,34 +47,17 @@ public class Pay_User_Function {
 	
 	public void SearchContact() {
 		contactsList.click();
-		driver.findElement(By.xpath("(//div[@class='modal-content']//div//a)[1]")).click();
-		/*
-		List<WebElement> ele01=driver.findElements(By.xpath("//div[@class='modal-content']//div"));
-	    int size=ele01.size();
-	    System.out.println(size);
-	    
-	    for(int i=0;i<size;i++)
-	    {
-	    	String value=ele01.get(i).getText();
-	    	System.out.println(value);
-	    	if(value.equals(" Active Walking "))
-	    	{
-	    	
-	    		ele01.get(i).click();
-	    		
-	    	}
-	    	*/
-	    	
+		driver.findElement(By.xpath("(//div[@class='modal-content']//div//a)[3]")).click();
+		
 	    }
-	    
-	
+	   
 	public void EnterAmount() {
 		amount.sendKeys("1");
 	}
 	public void ClickPayNow() {
 		paynow.click();
-		driver.findElement(By.xpath("//div[@role='listbox']//a[1]")).click();
-		/*
+		//driver.findElement(By.xpath("//div[@id=\"dropdown-menu-id_4\"]//a[1]")).click();
+		
 		List<WebElement> ele02=driver.findElements(By.xpath("//div[@role='listbox']//a"));
 		int size=ele02.size();
 		System.out.println(size);
@@ -86,11 +72,11 @@ public class Pay_User_Function {
 			}
 			
 		}
-		*/
+		
 		
 	}
 	public void descrip() {
-		description.sendKeys("tyyrsdfhgfcxgcvh");
+		description.sendKeys("Payment Done");
 	}
 	public void confirm() {
 		confirm.click();

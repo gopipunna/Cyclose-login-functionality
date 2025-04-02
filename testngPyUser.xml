@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<listeners>
+<!-- <listeners>
 <listener class-name="extent_Report.ExtentReport_Cyclos"></listener>
-</listeners>
+</listeners>-->
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="https://demo.cyclos.org/ui/home"></parameter>
   <test thread-count="5" name="Test">
     <classes>
-      <!-- <class name="test_Cases.Register_TestCases"/>-->
-      <!-- <class name="test_Cases.Login_002TestCases"/>-->
-      <class name="test_Cases.Pay_User_003TestCases"/>
+      <!-- <class name="test_Cases.Register_Page_TestCases"/>-->
+      <!-- <class name="test_Cases.Login_Page_testCases"/>-->
+      <class name="test_Cases.Pay_User_Page_TestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

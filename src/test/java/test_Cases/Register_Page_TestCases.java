@@ -8,10 +8,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.Test;
 
-import base_Class.Url_Login_Logout;
+import base_Class.Base_Class;
 import page_Object.Register_Page;
 
-public class Register_TestCases extends Url_Login_Logout {
+public class Register_Page_TestCases extends Base_Class {
 	
 	public Register_Page rp;
 	@Test
