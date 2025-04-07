@@ -12,20 +12,20 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class Generate_ExtentReport_Cyclos implements ITestListener
+public class Generate_ExtentReport_Cyclos implements ITestListener {
 
-{
+
 	public ExtentSparkReporter rp;//document name, report name, theme
 	public ExtentReports er;//host name, user name, os, browser, environment
 	public ExtentTest et;//pass, fail, skipped
 	
 	//predefined methods(Onstart, ontest success, on test skipped, on test finish, on test failure)
 	
-	public void onStart(ITestContext tr)
-	{
+	public void onStart(ITestContext tr) {
+	
 		rp=new ExtentSparkReporter("C:\\Users\\USER\\Downloads\\Cyclos_TestNG share1\\Cyclos_TestNG\\report_Cyclos\\cyclos.html");
 		rp.config().setDocumentTitle("Cyclos");
-		rp.config().setReportName("register");
+		rp.config().setReportName("Login");
 		rp.config().setTheme(Theme.STANDARD);
 		
 		er = new ExtentReports();

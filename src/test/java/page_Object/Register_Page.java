@@ -59,11 +59,11 @@ public class Register_Page {
 	}
 	public void SetLoginName()
 	{
-		LoginName.sendKeys("nishi1256");	
+		LoginName.sendKeys("gopipunna");	
 	}
 	public void SetMailid()
 	{
-		email.sendKeys("nishi1265@gmail.com");
+		email.sendKeys("gopipunna8@gmail.com");
 	}
 	public void SetGender()
 	{
@@ -75,11 +75,11 @@ public class Register_Page {
 	}
 	public void SetPassword()
 	{
-		password.sendKeys("Choti@123");
+		password.sendKeys("Anu1122@.com");
 	}
 	public void SetConfirmPassword()
 	{
-		cpassword.sendKeys("Choti@123");
+		cpassword.sendKeys("Anu1122@.com");
 	}
 	public void SetDemoTest()
 	{

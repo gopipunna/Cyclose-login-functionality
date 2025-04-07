@@ -21,12 +21,11 @@ public class Register_Page_TestCases extends Base_Class {
 		rp=new Register_Page(driver);
 		
 		rp.setRegisterClicj();
-		System.out.println("registration is clicked");
+		
 			rp.SetName();
 			rp.SetLoginName();
 			rp.SetMailid();
 			rp.SetGender();
-			System.out.println("entered the data");
 			rp.SetNextButton();
 			Thread.sleep(3000);
 			rp.SetPassword();
@@ -35,9 +34,11 @@ public class Register_Page_TestCases extends Base_Class {
 			Thread.sleep(15000);
 			rp.SetSubmit();
 			Thread.sleep(10000);
+			
+			
 			TakesScreenshot tc=(TakesScreenshot)driver;
 			File src=tc.getScreenshotAs(OutputType.FILE);
-			File trg=new File("C:\\Users\\LENOVO\\eclipse-workspace\\Cyclos_TestNG\\CyclosScreenhot\\wholepage.png");
+			File trg=new File("C:\Users\USER\Downloads\Cyclos_TestNG share1\Cyclos_TestNG\CyclosScreenhot\cyclos.png");
 			FileUtils.copyFile(src, trg);
 	}
 	
